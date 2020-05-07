@@ -11,7 +11,7 @@
 <header style="text-align: center; font-size: xx-large">
     Invoice ListBoard
 </header>
-<body style="font-family: 'Open Sans', sans-serif; background-color:oldlace">
+<body style="font-family: 'Open Sans', sans-serif; background-color: gainsboro">
     
     <div class="container">
         @yield('mainContent')

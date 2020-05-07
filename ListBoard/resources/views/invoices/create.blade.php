@@ -15,7 +15,7 @@ Create a new Invoice
 			<div class="form-group" >
 			  <label class="col-md-4 control-label" for="invoicedate">Invoice Date</label>  
 			  <div class="col-md-4">
-			  <input id="invoicedate" name="invoicedate" type="text" placeholder="Enter Invoice Date" class="border py-2 px-3 text-grey-darkest" style="width: 200px; height: 30px">
+			  <input id="invoicedate" name="invoicedate" type="text" placeholder="YYYY-MM-DD" class="border py-2 px-3 text-grey-darkest" style="width: 200px; height: 30px">
 			  </div>
 			</div>
 
@@ -57,10 +57,14 @@ Create a new Invoice
 
 			<!-- Button -->
 			<div class="form-group">
-			  <label class="col-md-4 control-label" for="submit"></label>
-			  <button class="bg-green hover:bg-green-dark text-black uppercase text-lg mx-auto p-4 rounded"id="submit" style="background-color:green; margin-top: 20px; margin-bottom: 20px; width: 100px; height: 30px"name="submit">Save</button>
+
+				<button class="bg-green-700"id="submit" name="submit">Save</button>
 			</div>
 		
+
+		
+
+
 			</fieldset>
 		</form>
 		
@@ -73,7 +77,7 @@ Create a new Invoice
 		        </ul>
 		    </div>
 		@endif
-		<div class="container">
-			<button style="background-color: lightskyblue; width:100px; height:30px; margin: 10px"><a class="text-black uppercase text-lg mx-auto p-4 rounded" href="/invoices" style="background-color: lightskyblue; margin-top: 20px;">Show Invoices</a></button>
+		<div class="form-group">
+			<button onclick="window.location.href = '/invoices';" class="bg-blue-500">Show Invoices</button>
 		</div>
 @endsection
