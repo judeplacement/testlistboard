@@ -18,13 +18,13 @@
         "sass": "^1.15.2",
         "sass-loader": "^8.0.0",
         "stylelint-config-recommended": "^3.0.0",
-        "vue-template-compiler": "^2.6.11"
+        "vue-template-compiler": "^2.6.11",
+        "vuedraggable": "^2.23.2"
     },
     "dependencies": {
         "es6-promise": "^4.2.8",
         "tailwindcss": "^1.4.0",
         "vue": "^2.6.11",
-        "vuedraggable": "^2.23.2",
         "vuex": "^3.3.0"
     }
 }

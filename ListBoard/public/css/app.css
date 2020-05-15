@@ -452,9 +452,6 @@ html {
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
   border-color: #e2e8f0; /* 2 */
-  margin: 20px;
-  
-  text-align: left;
 }
 
 /*
@@ -598,18 +595,6 @@ video {
   height: auto;
 }
 
-button {
-  width: 150px;
-  height: 40px;
-  font-size: large;
-  text-align: center;
-  border-radius: 8px;
-  font-weight: bolder;
-  --border-opacity: 1;
-  border-color: #2c7a7b;
-  border-color: rgba(44, 122, 123, var(--border-opacity));
-}
-
 .container {
   width: 100%;
 }
@@ -622,7 +607,7 @@ button {
 
 @media (min-width: 768px) {
   .container {
-    max-width: inherit;
+    max-width: 768px;
   }
 }
 
@@ -5812,7 +5797,6 @@ button {
 
 .table-row {
   display: table-row;
-  margin-top:10px;
 }
 
 .flow-root {

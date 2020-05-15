@@ -1,8 +1,17 @@
 require('./bootstrap');
+
 import Vue from 'vue'
 import Vuex from 'vuex'
 import 'es6-promise/auto'
 
-Vue.use(Vuex)
+// Import components here
+import TableDraggable from './components/TableDraggable.vue';
 
-Vue.component('record-draggable', require('/tabledraggable.vue'));
+const app = new Vue({
+  el: '#app',
+  components: {
+    TableDraggable
+  }
+});
+
+Vue.use(Vuex)

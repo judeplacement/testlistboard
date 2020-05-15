@@ -31,11 +31,16 @@ List Invoices
 			
 		@endforeach
 		</tbody>
-	</table>
+		</table>
+
+		<button onclick="window.location.href = 'invoices/create';" class="bg-blue-500">Add Invoice</button>
+
+		<hr>
+		<div id="app">
+		<table-draggable :invoices="{{ $invoices}}"></table-draggable>
+		</div>
 
 
-
-<button onclick="window.location.href = 'invoices/create';" class="bg-blue-500">Add Invoice</button>
 	
 
 @endsection
